@@ -1,0 +1,37 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background: url(./header01.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2 {
+  color: #b8b7b8;
+}
+.btn {
+  border-radius: 100px;
+  background-color: #9c01a8;
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+}
+.btn:hover {
+  color: white;
+  background-color: blueviolet;
+}
+.buffer {
+  width: auto;
+  height: 8rem;
+}
+.hr {
+  margin: 10px auto;
+  max-width: 6rem;
+  height: 3px;
+  background-color: #9c01a8;
+}
+.btn-xl {
+  padding: 10px 35px;
+}
